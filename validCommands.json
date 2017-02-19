@@ -1,0 +1,18 @@
+{
+    "me" : {
+        "_params" : 1,
+        "_func" : "_me",
+        "_desc" : "Logs user in with ",
+        "_err" : ""
+    },
+    "current" : {
+        "winrate" : {
+            "_params" : 0,
+            "_func" : "_getWinRatesCurrentGame"
+        },
+        "wins" : {
+            "_params" : 0,
+            "_func" : "_getUsersWinsCurrentGame"
+        }
+    }
+}
