@@ -18,5 +18,7 @@
             "name": "Attach to Process",
             "port": 5858
         }
-    ]
+    ],
+    "jslint.version": "es6"
+
 }
