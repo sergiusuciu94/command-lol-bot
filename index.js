@@ -1,7 +1,6 @@
 'use strict'
 
 const express = require('express');
-const Client = require('node-xmpp-client');
 const bodyParser = require('body-parser');
 const request = require('request');
 const Client = require('node-xmpp-client');
