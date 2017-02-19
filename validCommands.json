@@ -1,18 +1,21 @@
 {
-    "me" : {
-        "_params" : 1,
-        "_func" : "_me",
-        "_desc" : "Logs user in with ",
-        "_err" : ""
+    "me": {
+        "_params": 1,
+        "_func": "_me",
+        "_desc": "Logs user in with the summonerID -- param 1 : SummonerID (from LOLKing)"
     },
-    "current" : {
-        "winrate" : {
-            "_params" : 0,
-            "_func" : "_getWinRatesCurrentGame"
+    "current": {
+        "winrate": {
+            "_params": 0,
+            "_func": "_getWinRatesCurrentGame"
         },
-        "wins" : {
-            "_params" : 0,
-            "_func" : "_getUsersWinsCurrentGame"
+        "wins": {
+            "_params": 0,
+            "_func": "_getUsersWinsCurrentGame"
+        },
+        "playerWins": {
+            "_params": 1,
+            "_func": "_getCurrentGamePlayerWins"
         }
     }
 }
