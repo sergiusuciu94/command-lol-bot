@@ -4,7 +4,6 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const request = require('request');
 const Client = require('node-xmpp-client');
-const RiotApi = require('riot-api');
 const comandsApi = require('./lib/chat-comands.js');
 const fs = require('fs');
 const _commands = JSON.parse(fs.readFileSync('validCommands.json'))
